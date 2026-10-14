@@ -1,0 +1,13 @@
+{
+  "name": "low-network-calling-app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "One-to-one WebRTC calls that degrade gracefully on weak networks",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "test": "npm test --prefix server && npm test --prefix client"
+  }
+}
